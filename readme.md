@@ -1,6 +1,6 @@
 # Spatio-temporal Semantic Corridor
 
-This repo contains a implementation of our paper
+Implementation of our paper
 
 * Wenchao Ding, Lu Zhang, Jing Chen and Shaojie Shen, "Safe Trajectory Generation For Complex Urban Environments Using Spatio-temporal Semantic Corridor", 2019
 
