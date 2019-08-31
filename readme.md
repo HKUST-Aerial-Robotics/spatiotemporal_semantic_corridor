@@ -1,7 +1,9 @@
 # Spatio-temporal Semantic Corridor
 
-## 0. Introduction
-**News:** Apart from this motion planner, the *multi-agent simulator* in the paper is also going to be open-sourced. We are right now working on opening this big project and all the packages are supposed to be released before September.
+## 0. News
+**What Is Next:** The code for the dependencies of this planner is comming soon!
+
+**31 August 2019:** The code for the ssc planner is available online!
 
 **3 July 2019:** Our paper is available online!
 * **Safe Trajectory Generation for Complex Urban Environments Using Spatio-temporal Semantic Corridor**, Wenchao Ding, Lu Zhang, Jing Chen and Shaojie Shen [IEEE Xplore](https://ieeexplore.ieee.org/document/8740885). *W. Ding and L. Zhang contributed equally to this project.*
@@ -15,13 +17,40 @@
 }
 ```
 
+## 1. Introduction
+This is the project page for the paper **''Safe Trajectory Generation for Complex Urban Environments Using Spatio-temporal Semantic Corridor''** which is published at IEEE Robotics and Automation Letters (RA-L).
+
+This project contains (**already released**):
+* ssc_map: maintainer for the semantic elements in the spatio-temporal domain.
+* ssc_planner: planner for generating the semantic corridor in the spatio-temporal domain and optimizing safe and dynamically feasible trajectories.
+* ssc_server_ros: ros server which manages the replanning.
+* ssc_visualizer: visualizing the elements both in the spatio-temporal domain (in a separate rviz window) and in the global coordinate.
+
+The dependencies of this project includes (**comming soon**):
+* `common` package: an integration of various mathematical tools such as polynomial, spline, primitive, lane, trajectory, state, optimization solvers, etc. It provides many easy-to-use interfaces for mathematical modeling.
+* `phy_simulator` package: a configurable multi-agent simulator. It provides ground truth information and listens planner feedbacks.
+* `semantic_map_manager` package: map with semantic information for vehicle local planning. Each agent is capable of rendering its local planning map based on its configuration.
+* `vehicle_model` package: basic vehicle models and controllers.
+* `vehicle_msgs` package: ros communication messages and corresponding encoder and decoders.
+* `playgrounds` package: test cases/configurations/scenarios stored in json format.
+* `behavior_planner` package: mpdm behavior planner for on-road driving. It can provide a local reference lane based on navigation information and behavior decision.
+* `forward_simulator` package: forward simulation
+* `motion_predictor` package: surrounding vehicle motion prediction.
+* `route_planner` package: road-level route planner, a simple version.
+
+The dependencies will be released in another repo: **https://github.com/HKUST-Aerial-Robotics/HDJI_planning_core**.
+
+The overall structure is as follows:
+
+![alt text](fig/overview.png)
+
 **Videos:**
 <a href="https://youtu.be/AHosJZ6CITc" target="_blank"><img src="fig/video_cover_1.png" alt="video" width="640" height="360" border="10" /></a>
 
-## 1. Prerequisites
+## 2. Prerequisites
 
-## 2. Build
+## 3. Build
 
-## 3. Usage
+## 4. Usage
 
-## 4. Demos
+## 5. Demos
