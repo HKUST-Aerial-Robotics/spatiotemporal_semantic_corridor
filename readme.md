@@ -1,8 +1,6 @@
 # Spatio-temporal Semantic Corridor
 
 ## 0. News
-**What Is Next:** The code for the dependencies of this planner is comming soon!
-
 **31 August 2019:** The code for the ssc planner is available online!
 
 **3 July 2019:** Our paper is available online!
@@ -16,6 +14,8 @@
   publisher={IEEE}
 }
 ```
+
+**What Is Next:** The code for the dependencies of this planner is comming soon!
 
 ## 1. Introduction
 This is the project page for the paper **''Safe Trajectory Generation for Complex Urban Environments Using Spatio-temporal Semantic Corridor''** which is published at IEEE Robotics and Automation Letters (RA-L).
@@ -45,6 +45,7 @@ The overall structure is as follows:
 ![alt text](fig/overview.png)
 
 **Videos:**
+
 <a href="https://youtu.be/AHosJZ6CITc" target="_blank"><img src="fig/video_cover_1.png" alt="video" width="640" height="360" border="10" /></a>
 
 ## 2. Prerequisites
