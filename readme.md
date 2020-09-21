@@ -1,6 +1,9 @@
 # Spatio-temporal Semantic Corridor
 
 ## 0. News
+
+**21 Sept. 2020:** The whole dependencies and a playable demo can be found in: **https://github.com/HKUST-Aerial-Robotics/EPSILON**
+
 **31 August 2019:** The code for the ssc planner is available online!
 
 **3 July 2019:** Our paper is available online!
